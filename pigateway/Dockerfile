@@ -14,6 +14,7 @@ COPY lora_pkt_fwd.c /build/packet_forwarder/lora_pkt_fwd/src
 COPY run.py ./
 COPY global_conf_US915.json ./
 COPY global_conf_EU868.json ./
+COPY global_conf_AS923_1.json ./
 
 
 WORKDIR /build/packet_forwarder
