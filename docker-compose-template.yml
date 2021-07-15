@@ -15,7 +15,7 @@ services:
       - 'miner-data:/var/data'
       - 'miner-log:/var/log/miner'
     environment:
-      - 'REGION_OVERRIDE=US915'
+      - 'REGION_OVERRIDE=AS923_1'
     
   web:
     build: ./web
