@@ -3,9 +3,9 @@ slug: "helium-dyi-hotspot-balena-pi4"
 name: "Helium DIY Hotspot for Raspberry Pi"
 type: "sw.application"
 assets:
-  - url: "https://github.com/just4give/helium-dyi-hotspot-balena-pi4/"
+  - url: "https://github.com/hereismeaw/helium-dyi-hotspot-balena-pi4/"
     name: "repository"
-  - url: "https://raw.githubusercontent.com/just4give/helium-dyi-hotspot-balena-pi4/master/web/img/logo.jpg"
+  - url: "https://github.com/hereismeaw/helium-dyi-hotspot-balena-pi4/master/web/img/logo.jpg"
     name: "logo"
 data:
   description: "Helium DIY Hotspot for the Raspberry Pi"
