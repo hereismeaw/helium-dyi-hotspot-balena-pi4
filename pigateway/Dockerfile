@@ -5,11 +5,11 @@ RUN apt-get update
 RUN apt-get install -y git build-essential wget python3
 
 WORKDIR /build
-RUN git clone https://github.com/Lora-net/lora_gateway.git
+RUN git clone https://github.com/hereismeaw/sx1302_hal.git
 COPY loragw_spi.native.c /build/lora_gateway/libloragw/src
 
 WORKDIR /build
-RUN git clone https://github.com/Lora-net/packet_forwarder.git
+RUN git clone https://github.com/hereismeaw/sx1302_hal.git
 COPY lora_pkt_fwd.c /build/packet_forwarder/lora_pkt_fwd/src
 COPY run.py ./
 COPY global_conf_US915.json ./
