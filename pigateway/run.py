@@ -5,7 +5,7 @@ import sys
 import json
 import time
 
-region = os.environ.get("REGION","US915")
+region = os.environ.get("REGION","AS923_1")
 miner = os.environ.get("MINER_IP","miner")
 
 print("Modifying gateway_conf.json  %s %s" %(region,miner))
